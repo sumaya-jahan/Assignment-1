@@ -270,3 +270,28 @@ footer hr {
     color: white;
     font-size: 14px;
 }
+
+
+/*hover */
+
+.btn,
+.btn-2,
+.btn-early-access {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #249653;
+    transform: translateY(-3px);
+}
+
+.btn-2:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-3px);
+}
+
+.btn-early-access:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
